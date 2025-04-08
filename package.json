@@ -1,0 +1,30 @@
+{
+  "name": "advanced-xss-protection-lib",
+  "version": "1.0.0",
+  "description": "Advanced XSS protection library with multiple sanitization strategies",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint src/**/*.js"
+  },
+  "keywords": [
+    "security",
+    "xss",
+    "sanitization",
+    "protection",
+    "web-security"
+  ],
+  "author": "Anirudha",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "dompurify": "^3.0.6",
+    "express": "^5.1.0",
+    "jsdom": "^22.1.0",
+    "sanitize-html": "^2.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.51.0",
+    "jest": "^29.7.0"
+  }
+}
